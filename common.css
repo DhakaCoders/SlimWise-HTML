@@ -178,8 +178,14 @@ img {
   display: none!important
 }
 p { margin: 0; margin-bottom: 30px; }
-a { word-wrap: break-word } 
-strong { font-weight:normal }
+a{
+  word-wrap: break-word ;
+  color: #001eff;
+} 
+a:hover{
+  color: #ffa800;
+}
+strong { font-family: 'LatoBold'; }
 .pull-right {
     float: right!important;
 }

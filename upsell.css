@@ -100,9 +100,30 @@
 }
 /*header*/
 
+.swu-section-01{
+	padding-top: 25px;
+}
+.swu-section-01-cntlr > strong{
+	font-size: 25px;
+	margin-bottom: 40px;
+	display: inline-block;
+}
+.swu-section-01-title{
+	font-family: 'LatoBold';
+}
+.swu-section-01-cntlr span{
+	font-size: 30px;
+	margin-bottom: 40px;
+	display: inline-block;
+	font-family: 'LatoBold';
+}
 
 
 
+
+.swu-section-02-cntlr{
+	background: #fff;
+}
 
 
 

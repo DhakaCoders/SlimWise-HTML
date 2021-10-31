@@ -1,3 +1,5 @@
+
+/*header*/
 .header-innr{
 	display: flex;
 	align-items: center;
@@ -24,8 +26,42 @@
     padding-right: 7px;
 }
 .fl-shipping-col:after{
+	content: "";
 	position: absolute;
-
+	top: 15px;
+	background: #ffa800;
+	right: 0;
+	height: 4px;
+	width: 39%;
+	border-radius: 2px 0 0 2px;
+}
+.fl-shipping-col:before{
+	content: "";
+	position: absolute;
+	top: 15px;
+	background: #ffa800;
+	left: 0;
+	height: 4px;
+	width: 39%;
+	border-radius: 0 2px 2px 0;
+}
+.fl-shipping-col-02:after{
+	width: 43%;
+	background: #c0c7cd;
+}
+.fl-shipping-col-02:before{
+	width: 43%;
+}
+.fl-shipping-col-01:before{
+	content: none;
+	display: none;
+}
+.fl-shipping-col-03:before{
+	background: #c0c7cd;
+}
+.fl-shipping-col-03:after{
+	content: none;
+	display: none;
 }
 .fl-shipping-col-01{
 	width: 28%;
@@ -50,10 +86,129 @@
     width: 100%;
     color: #26517a;
     display: inline-block;
+    text-transform: uppercase;
     margin-bottom: 0;
 }
 
 
 .hdr-btmbar{
 	background: #26517a;
+	padding: 8px 0;
 }
+.hdr-btmbar-cntlr strong{
+	text-transform: uppercase;
+}
+/*header*/
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+/*fotter*/
+.fl-footer-wrap{
+	background: #000;
+	padding: 50px 0;
+}
+.fl-footer-inner{
+
+}
+.fl-ftr-nav ul {
+    padding-bottom: 25px;
+    text-align: center;
+}
+.fl-ftr-nav ul li:first-child {
+    padding-left: 0;
+}
+.fl-ftr-nav ul li:last-child {
+    padding-right: 0;
+}
+.fl-ftr-nav ul li, .fl-ftr-nav ul li a {
+    display: inline-block;
+    vertical-align: baseline;
+}
+.fl-ftr-nav ul li {
+    padding: 0 22px;
+    position: relative;
+    font-size: 18px;
+    line-height: 1;
+}
+.fl-ftr-nav ul li a {
+    color: #fff;
+    font-family: 'SupriaSans-Regular';
+    text-transform: capitalize;
+}
+.fl-ftr-nav ul li a:hover{
+	color: #dc1616;
+}
+
+.fl-ftr-nav ul li:not(:last-child):after {
+    content: "";
+    width: 2px;
+    height: 11px;
+    position: absolute;
+    right: 0;
+    margin-right: -3px;
+    background: #fff;
+    top: 50%;
+    transform: translateY(-50%);
+    -ms-transform: translateY(-50%);
+    -webkit-transform: translateY(-50%);
+}
+.fl-copyright{
+	margin-bottom: 30px;
+}
+.fl-copyright p{
+	margin-bottom: 0;
+	font-size: 14px;
+	font-family: 'SupriaSans-Regular';
+	color: #fff;
+}
+.fl-ftr-des{
+
+}
+.fl-ftr-des p{
+	font-size: 14px;
+	font-family: 'SupriaSans-Regular';
+	color: #484848;
+	margin-bottom: 20px;
+}
+.fl-ftr-des p:last-of-type{
+	margin-bottom: 0;
+}
+/*fotter*/

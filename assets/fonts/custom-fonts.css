@@ -73,7 +73,7 @@
   font-display: swap;
 }
 @font-face {
-    font-family: 'FiraSansExtraCondensedBlack';
+    font-family: 'FiraSansExtraCondensed-Black';
     src: url('assets/fonts/FiraSansExtraCondensed-Black/FiraSansExtraCondensed-Black.woff2') format('woff2'),
         url('assets/fonts/FiraSansExtraCondensed-Black/FiraSansExtraCondensed-Black.woff') format('woff');
     font-weight: 900;
@@ -81,11 +81,31 @@
     font-display: swap;
 }
 @font-face {
-    font-family: 'FiraSansExtraCondensedBold';
+    font-family: 'FiraSansExtraCondensed-Bold';
     src: url('assets/fonts/FiraSansExtraCondensed-Bold/FiraSansExtraCondensed-Bold.woff2') format('woff2'),
         url('assets/fonts/FiraSansExtraCondensed-Bold/FiraSansExtraCondensed-Bold.woff') format('woff');
     font-weight: bold;
     font-style: normal;
     font-display: swap;
 }
-
+@font-face {
+    font-family: 'latoblack';
+    src: url('assets/fonts/latoblack/latoblack.woff2') format('woff2'),
+        url('assets/fonts/latoblack/latoblack.woff') format('woff');
+     font-style: normal;
+    font-display: swap;
+}
+@font-face {
+    font-family: 'LatoBold';
+    src: url('assets/fonts/LatoBold/LatoBold.woff2') format('woff2'),
+        url('assets/fonts/LatoBold/LatoBold.woff') format('woff');
+    font-style: normal;
+    font-display: swap;
+}
+@font-face {
+    font-family: 'LatoRegular';
+    src: url('assets/fonts/LatoRegular/LatoRegular.woff2') format('woff2'),
+        url('assets/fonts/LatoRegular/LatoRegular.woff') format('woff');
+    font-style: normal;
+    font-display: swap;
+}

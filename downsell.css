@@ -48,9 +48,10 @@
 }
 .swd-sec3-image{
 	min-height:555px;
-}
+	background-repeat: no-repeat;
+	}
 .swd-sec3-left {
     position: absolute;
-    left: 0;
-    bottom: 24px;
+    right: 0;
+    bottom: 28px;
 }

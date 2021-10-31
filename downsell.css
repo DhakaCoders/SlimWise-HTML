@@ -1,3 +1,6 @@
+.swd-sec1{
+	padding-top:28px;
+}
 .swd-sec1-cntlr{
 	text-align:center;
 }
@@ -8,7 +11,24 @@
 	font-size:26px;
     font-family: 'LatoBold';
 }
-
+/* =============================== */
 .swd-sec2{
 	background-color:#fcf5ee;
+	text-align:center;
+}
+.swd-sec2-cntlr{
+	padding-top:52px;
+	padding-bottom: 160px;
+}
+.swd-sec2-cntlr h1{
+    font-family: 'FiraSansExtraCondensed-Bold';
+    line-height:1;
+    margin-bottom:20px;
+}
+.swd-sec2-cntlr h6{
+    font-family: 'LatoBold';
+    margin-bottom: 40px;
+}
+.swd-sec2-cntlr h6 span{
+	text-decoration:underline;
 }

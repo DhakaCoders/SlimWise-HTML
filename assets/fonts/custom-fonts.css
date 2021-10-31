@@ -72,6 +72,20 @@
   font-style: normal;
   font-display: swap;
 }
-
-
+@font-face {
+    font-family: 'FiraSansExtraCondensedBlack';
+    src: url('assets/fonts/FiraSansExtraCondensed-Black/FiraSansExtraCondensed-Black.woff2') format('woff2'),
+        url('assets/fonts/FiraSansExtraCondensed-Black/FiraSansExtraCondensed-Black.woff') format('woff');
+    font-weight: 900;
+    font-style: normal;
+    font-display: swap;
+}
+@font-face {
+    font-family: 'FiraSansExtraCondensedBold';
+    src: url('assets/fonts/FiraSansExtraCondensed-Bold/FiraSansExtraCondensed-Bold.woff2') format('woff2'),
+        url('assets/fonts/FiraSansExtraCondensed-Bold/FiraSansExtraCondensed-Bold.woff') format('woff');
+    font-weight: bold;
+    font-style: normal;
+    font-display: swap;
+}
 

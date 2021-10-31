@@ -177,6 +177,9 @@ img {
 .show-xs {
   display: none!important
 }
+.text-center{
+  text-align: center;
+}
 p { margin: 0; margin-bottom: 30px; }
 a{
   word-wrap: break-word ;

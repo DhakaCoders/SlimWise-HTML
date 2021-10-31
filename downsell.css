@@ -1,10 +1,14 @@
-.swd-sec1-cnltr{
+.swd-sec1-cntlr{
 	text-align:center;
 }
-.swd-sec1 h5{
+.swd-sec1 h6{
     font-family: 'latoblack';
 }
 .swd-sec1 p{
 	font-size:26px;
     font-family: 'LatoBold';
+}
+
+.swd-sec2{
+	background-color:#fcf5ee;
 }

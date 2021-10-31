@@ -50,10 +50,15 @@
     width: 100%;
     color: #26517a;
     display: inline-block;
+    text-transform: uppercase;
     margin-bottom: 0;
 }
 
 
 .hdr-btmbar{
 	background: #26517a;
+	padding: 8px 0;
+}
+.hdr-btmbar-cntlr strong{
+	text-transform: uppercase;
 }

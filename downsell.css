@@ -32,3 +32,26 @@
 .swd-sec2-cntlr h6 span{
 	text-decoration:underline;
 }
+
+
+/* ================================= */
+
+.swd-sec3-cntlr{
+	background-color:#ffffff;
+	padding-top:30px;
+	margin-top:-141px;
+	position: relative;
+}
+.swd-sec3-left,
+.swd-sec3-right{
+    width: 50%;
+}
+.swd-sec3-image{
+	min-height:555px;
+	background-repeat: no-repeat;
+	}
+.swd-sec3-left {
+    position: absolute;
+    right: 0;
+    bottom: 28px;
+}

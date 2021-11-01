@@ -11,7 +11,7 @@
 	font-size:26px;
     font-family: 'LatoBold';
 }
-/* =============================== */
+/* =============================== 2*/
 .swd-sec2{
 	background-color:#fcf5ee;
 	text-align:center;
@@ -34,7 +34,7 @@
 }
 
 
-/* ================================= */
+/* ================================= 3*/
 
 .swd-sec3-cntlr{
 	background-color:#ffffff;
@@ -56,7 +56,7 @@
     bottom: 28px;
 }
 
-/* ======================================*/
+/* ======================================4*/
 .swd-sec4{
 	position:relative;
 	padding-top: 38px;
@@ -74,21 +74,21 @@
 }
 .swd-sec4-right{
 	width:76%;
-	z-index: 1;
+	z-index: 2;
     position: relative;
 }
 .swd-sec4-cntlr {
     position: relative;
 }
 
-/* ================================*/
+/* ================================5*/
 .swd-sec5-cntlr{
 	background-color:#26527b;
 	padding-top:25px;
 	padding-bottom:13px;
 	border: 5px solid #fff;
 	position: relative;
-	margin-bottom: 48px;
+	margin-bottom: 75px;
 }
 .swd-sec5-cntlr h4 {
     text-align: center;
@@ -115,7 +115,11 @@
 
 
 
-/*========================================*/
+/*========================================6*/
+
+.swd-sec6-right{
+	width:65%;
+}
 
 .swd-sec6{
 	position: relative;
@@ -126,12 +130,16 @@
 	bottom:initial;
 	top:0;
 	background-position: left bottom 126px;
+	z-index:1;
 }
 .swd-sec6-right h5{
 	line-height:1.33;
 }
 
-/*================================*/
+/*================================7*/
+.swd-sec7-left{
+	width:68%;
+}
 .swd-sec7-image{
 	right:0;
 	left:initial;
@@ -143,7 +151,7 @@
     background-image: url(assets/images/dw-img11.png);
 }
 
-/* ================================ */
+/* ================================8*/
 .top-heading {
     text-align: center;
         margin-bottom: 50px;
@@ -198,15 +206,15 @@
     background-repeat: no-repeat;
     font-family: 'FiraSansExtraCondensed-Black';
 }
-.mny-bc-guarentee-des p span {
+/*.mny-bc-guarentee-des p span {
     background: #ffe401;
     font-family: 'LatoBold';
-}
+}*/
 
 
 
 
-/* ==================================*/
+/* ================================== 9*/
 
 .fl-pkg-section{
   padding-top: 13px;
@@ -262,9 +270,12 @@
 }
 .pkg-area-con-bg-inner {
     background: #fff;
-        padding-bottom: 55px;
+    padding-bottom: 55px;
+    box-shadow: 0 2px 13px -10px #000;
 }
-
+.fl-pkg-grd-controller > ul {
+    margin: -17px;
+}
 .fl-pkg-grd-controller > ul > li{
     float: left;
     width: 50%;
@@ -328,6 +339,7 @@
     background-repeat: repeat-x!important;
     background-size: cover!important;
     margin-bottom: 33px;
+    border-radius: 5px 5px 0px 0px;
 }
 .discount-offer h1 {
     font-family: 'Barlow-ExtraBold';
@@ -466,10 +478,10 @@
   padding-right: 10px;
   display: table;
   margin: 0 auto;
-  padding-top: 15px;
+  padding-top: 10px;
 }
 .fl-add-to-cart-btn-img{
-    margin-bottom: 36px;
+    margin-bottom: 34px;
 }
 
 .fl-add-to-cart-btn-img a{
@@ -478,7 +490,7 @@
 }
 .fl-pkg-grd-ftr ul li{
     
-    padding: 3px 0 33px 0px;
+    padding: 3px 0 30px 0px;
     font-size: 16px;
     line-height: 18px;
     text-transform: uppercase;
@@ -488,6 +500,7 @@
 .fl-pkg-grd-ftr ul li span{
 	position: relative;
 	padding-left:35px;
+  font-family: 'Barlow-SemiBold';
 }
 .fl-pkg-grd-ftr ul li em{
     position: absolute;
@@ -567,10 +580,12 @@
 .swd-sec8-cntlr{
 	background-color: initial;
 	border:none;
-	margin-bottom:0;
+	margin-bottom:20px;
+	padding-top: 65px;
 }
 .pkg-area-con-bg-none{
 	background-color:initial;
+	box-shadow: none;
 }
 .swd-sec8-cntlr h4{
 	color:#234f6d;

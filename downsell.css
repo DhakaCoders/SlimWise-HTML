@@ -111,6 +111,7 @@
 .swd-sec6-image{
 	bottom:initial;
 	top:0;
+	background-position: left bottom 126px;
 }
 .swd-sec6-right h5{
 	line-height:1.33;
@@ -120,6 +121,70 @@
 .swd-sec7-image{
 	right:0;
 	left:initial;
-	background-position: right;
+	background-position: right bottom 45px;
 	min-height:748px;
+}
+.swd-sec7 {
+    background-color:rgba(234,239,242,0.4);
+    overflow:hidden;
+}
+
+/* ================================ */
+.top-heading {
+    text-align: center;
+        margin-bottom: 50px;
+}
+
+.top-heading span {
+    color: #fff;
+    font-size: 30px;
+    font-family: 'LatoBold';
+    background-image: url(assets/images/dw-img5.png);
+    vertical-align: baseline;
+    padding: 20px;
+    background-repeat: no-repeat;
+    min-width: 720px;
+    min-height: 240px;
+    background-size: cover;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    line-height:1.53;
+}
+.swd-sec9 {
+    background: url(assets/images/dw-img6.png);
+    padding-bottom: 13px;
+}
+.swd-sec9-cntlr h4{
+	text-align: center;
+	margin-bottom: 97px;
+}
+.mny-bc-guarentee {
+    background-color: #fff;
+    text-align: center;
+    padding-bottom: 38px;
+    margin-bottom: 54px;
+}
+.mny-bc-guarentee-des {
+    text-align: center;
+}
+.mny-bc-guarentee-inner img{
+	margin-top: -52px;
+	margin-bottom:20px;
+}
+.mny-bc-guarentee-inner h4 {
+    margin-bottom: 41px;
+}
+.mny-bc-guarentee-des h2 span {
+    display: inline-block;
+    vertical-align: baseline;
+    background-image: url(assets/images/dw-img8.png);
+    background-size: contain;
+    background-position: 100% 100%;
+    background-repeat: no-repeat;
+    font-family: 'FiraSansExtraCondensed-Black';
+}
+.mny-bc-guarentee-des p span {
+    background: #ffe401;
+    font-family: 'LatoBold';
 }

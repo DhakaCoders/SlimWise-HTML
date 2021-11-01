@@ -165,13 +165,15 @@
     vertical-align: baseline;
     padding: 20px;
     background-repeat: no-repeat;
-    min-width: 720px;
-    min-height: 240px;
+    width: 720px;
+    height: 170px;
     background-size: cover;
     display: flex;
     justify-content: center;
     align-items: center;
     line-height:1.53;
+    margin-left: auto;
+    margin-right:auto;
 }
 .swd-sec9 {
     background: url(assets/images/dw-img6.png);
@@ -593,7 +595,7 @@
 .sw-sec8-cntlr {
     padding-bottom: 80px;
 }.swd-sec9-cntlr{
-    margin-top: -125px;
+    margin-top: -110px;
 }
 
 /* ============================ 10*/
@@ -634,5 +636,15 @@
 	.swd-sec6-image{
 		background-position: left -115px bottom 126px;
 	}
-
+	.swd-sec7-image{
+		background-position: right bottom 45px;
+	}
+	.pkg-area-con-bg-des span{
+		font-size:28px;
+	}
+	.fl-button{
+		max-width:250px;
+		font-size:21px;
+		padding: 16px 22px 16px;
+	}
 }

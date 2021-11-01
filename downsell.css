@@ -268,7 +268,7 @@
 .fl-pkg-grd-controller > ul > li{
     float: left;
     width: 50%;
-    padding: 0 10px;
+    padding: 0 17px;
 }
 
 .fl-pkg-grd-col-btm-bdr{
@@ -320,6 +320,7 @@
 .fl-pkg-grd-col-hdr span,.fl-pkg-grd-col-hdr strong{
     display: block;
 }
+
 .fl-pkg-grd-col-hdr{
     text-transform: uppercase;
     text-align: center;
@@ -512,7 +513,55 @@
 .pkg-area-con-bg-des a{
 	margin-bottom:36px;
 }
+.fl-pkg-dis-price strong {
+    font-size: 33px;
+    font-family: 'Barlow-Regular';
+    position: relative;
+}
 
+.fl-pkg-dis-price sup {
+    font-family: 'Barlow-Regular';
+    font-size: 20px;
+    right: 41px;
+    top: 10px;
+}
+
+.fl-pkg-dis-price:before {
+    font-size: 33px;
+    font-family: 'Barlow-Regular';
+    left: 9px;
+    top: 12px;
+}
+
+.fl-pkg-dis-price:after {
+    width: 5px;
+    height: 5px;
+    top:initial;
+    bottom: 14px;
+    right: 67px;
+}
+
+.fl-pgk-discount {
+    text-align: center;
+    margin-bottom: 17px;
+}
+
+.fl-pkg-dis-price sub {
+    font-size: 21px;
+    color: #000;
+    right: 25px;
+    bottom: 17px;
+}
+.fl-pkg-dis-price strong:after{
+    position: absolute;
+    width: 53px;
+    height: 2px;
+    background: #fc0303;
+    left: -18px;
+    content: "";
+    top: 29px;
+    font-family: 'Barlow-Regular';
+}
 
 /* ==================================== 8 */
 .swd-sec8-cntlr{

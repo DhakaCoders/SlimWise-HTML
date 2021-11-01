@@ -69,6 +69,14 @@
   font-display: swap;
 }
 @font-face {
+    font-family: 'Barlow-Regular';
+    src: url('assets/fonts/Barlow-Regular/Barlow-Regular.woff2') format('woff2'),
+        url('assets/fonts/Barlow-Regular/Barlow-Regular.woff') format('woff');
+    font-weight: normal;
+    font-style: normal;
+    font-display: swap;
+}
+@font-face {
   font-family: 'Barlow-ExtraBold';
   src: url('assets/fonts/Barlow-ExtraBold/Barlow-ExtraBold.woff2') format('woff2'),
     url('assets/fonts/Barlow-ExtraBold/Barlow-ExtraBold.woff') format('woff');

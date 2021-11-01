@@ -74,7 +74,7 @@
 }
 .swd-sec4-right{
 	width:76%;
-	z-index: 1;
+	z-index: 2;
     position: relative;
 }
 .swd-sec4-cntlr {
@@ -116,9 +116,11 @@
 
 
 /*========================================6*/
-.swd-sec7-left{
-	width:68%;
+
+.swd-sec6-right{
+	width:65%;
 }
+
 .swd-sec6{
 	position: relative;
 	padding-top:51px;
@@ -128,12 +130,16 @@
 	bottom:initial;
 	top:0;
 	background-position: left bottom 126px;
+	z-index:1;
 }
 .swd-sec6-right h5{
 	line-height:1.33;
 }
 
-/*================================*/
+/*================================7*/
+.swd-sec7-left{
+	width:68%;
+}
 .swd-sec7-image{
 	right:0;
 	left:initial;
@@ -145,7 +151,7 @@
     background-image: url(assets/images/dw-img11.png);
 }
 
-/* ================================ */
+/* ================================8*/
 .top-heading {
     text-align: center;
         margin-bottom: 50px;
@@ -208,7 +214,7 @@
 
 
 
-/* ==================================*/
+/* ================================== 9*/
 
 .fl-pkg-section{
   padding-top: 13px;

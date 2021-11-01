@@ -92,8 +92,12 @@
     text-align: center;
     color:#fff;
 }
-.swd-sec5-cntlr h4 span{
-	font-size:55px;
+.swd-sec5-cntlr h4 span {
+    font-size: 55px;
+    background-image: url(assets/images/dw-img9.png);
+    background-repeat: no-repeat;
+    background-size: contain;
+    background-position: 100%;
 }
 
 

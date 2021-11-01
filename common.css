@@ -298,7 +298,24 @@ h1,h2,h3,h4,h5,h6 {
   margin-bottom: 17px;
 } 
 
-
+.fl-button{
+  display: inline-block;
+  vertical-align: baseline;
+  max-width: 280px;
+  width: 100%;
+    position: relative;
+    color: #fff;
+    border-radius: 5px;
+    font-size: 24px;
+    line-height: 1.1;
+    text-transform: uppercase;
+    text-align: center;
+    padding: 20px 22px 20px;
+    overflow: hidden;
+    letter-spacing: 0.25px;
+    font-family: 'Barlow-ExtraBold';
+    background: linear-gradient(90deg, #332f2c, #686561,#332f2c);
+}
 
 
 

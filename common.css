@@ -197,6 +197,13 @@ strong { font-family: 'LatoBold'; }
 .pull-right {
     float: right!important;
 }
+p span.bg-yellow{
+  background: #ffe404;
+  font-family: 'LatoBold';
+  line-height: 19px;
+  padding: 2px 0 5px 2px;
+  display: inline-block;
+}
 .pull-left {
     float: left!important;
 }

@@ -264,6 +264,7 @@
 }
 .pkg-area-con-bg-inner {
     background: #fff;
+        padding-bottom: 55px;
 }
 
 .fl-pkg-grd-controller > ul > li{
@@ -496,4 +497,20 @@
 }
 .discount-offer{
 	text-align: center;
+}
+
+.pkg-area-con-bg-des {
+    text-align: center;
+    padding-top: 50px;
+}
+.pkg-area-con-bg-des span{
+    display: block;
+    font-family: 'LatoRegular';
+    font-size: 30px;
+}
+.pkg-area-con-bg-des span:last-child{
+    font-family: 'LatoBold';
+}
+.pkg-area-con-bg-des a{
+	margin-bottom:36px;
 }

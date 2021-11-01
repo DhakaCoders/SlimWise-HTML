@@ -300,12 +300,58 @@
 .swu-section-06-cntlr{
 	position: relative;
 	z-index: 2;
+	overflow: hidden;
+}
+.swu-section-07-img{
+	position: absolute;
+	right: 0;
+	top: 0;
+	z-index: 1;
+}
+.swu-section-07-cntlr{
+	position: relative;
+	background: #fff;
+	padding: 27px;
+	background-repeat: no-repeat!important; 
+	background-size: contain!important; 
+	background-position: center left!important; 
+	overflow: hidden;
+}
+.swu-section-07-title{
+	position: relative;
+	z-index: 2;
+	line-height: 1.2;
+	margin-bottom: 20px;
+}
+.swu-section-07-title:last-child{
+	margin-bottom: 0;
 }
 
+.swu-section-08{
+	position: relative;
+	padding-top: 35px;
+}
+.swu-section-08-img{
+	position: absolute;
+	right: 0;
+	top: 0;
+	z-index: 1;
+}
+.swu-section-08-cntlr{
+	position: relative;
+	z-index: 2;
+}
+.swu-section-08-title{
 
-
-
-
+}
+span.bg-yellow-image{
+	background-image: url(assets/images/swu-bg-yelloe-bg.png);
+	background-repeat: no-repeat;
+	background-size: contain;
+	background-position: 100%;
+	padding: 0 9px;
+    margin: 0 -9px;
+}
 
 
 

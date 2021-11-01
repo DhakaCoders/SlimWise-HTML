@@ -372,6 +372,7 @@ span.bg-yellow-image{
 	background-repeat: no-repeat!important;
 	background-position: center center!important;
 	background-size: cover!important;
+	padding-bottom: 85px;
 }
 .swu-section-10-img{
 	position: absolute;
@@ -390,9 +391,62 @@ span.bg-yellow-image{
 	z-index: 2;
 }
 
+.swu-section-11{
 
-
-
+}
+.swu-section-11-cntlr{
+	background: #fff;
+	padding: 5px;
+}
+.swu-section-11-hding{
+	position: relative;
+	background: #26527b;
+	padding-top: 25px;
+	padding-left: 10px;
+	padding-right: 10px;
+	padding-bottom: 15px;
+	margin-bottom: 30px;
+}
+.swu-sec-11-hding-bg {
+    position: absolute;
+    bottom: -22px;
+    left: 0;
+    right: 0;
+    z-index: 1;
+}
+.swu-section-11-title{
+	margin-bottom: 0;
+    position: relative;
+    padding-left: 40px;
+    padding-right: 40px;
+    z-index: 4;
+}
+.swu-section-11-img-dec-cntlr{
+	display: flex;
+	flex-wrap: wrap;
+}
+.swu-section-11-img{
+	width: 45%;
+	order: 2;
+}
+.swu-section-11-desc{
+	width: 55%;
+	padding-right: 10px;
+	order: 1;
+}
+.swu-section-11-desc p:last-of-type{
+	margin-bottom: 15px;
+}
+.swu-section-11-desc2-module{
+	padding-top: 25px;
+	background: #f0f8ff;
+	padding-bottom: 35px;
+	position: relative;
+	z-index: 4;
+}
+.swu-section-11-desc2-module p:last-of-type{
+	margin-bottom: 0;
+}
 
 
 

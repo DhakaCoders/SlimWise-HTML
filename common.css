@@ -352,7 +352,11 @@ h1,h2,h3,h4,h5,h6 {
     background: linear-gradient(90deg, #332f2c, #686561,#332f2c);
     box-shadow: 0px 1px 1px 0 #182d64;
 }
-
+.fl-button:hover {
+    background: linear-gradient(
+90deg, #c50303,#ff9f9f,#c70202);
+    color: #fff;
+}
 
 
 

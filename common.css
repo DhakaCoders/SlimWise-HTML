@@ -200,10 +200,11 @@ strong { font-family: 'LatoBold'; }
 p span.bg-yellow{
   background: #ffe404;
   font-family: 'LatoBold';
-  line-height: 19px;
+  line-height: 21px;
   padding: 2px 0 5px 2px;
   display: inline-block;
 }
+
 .pull-left {
     float: left!important;
 }

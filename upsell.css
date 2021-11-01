@@ -327,8 +327,31 @@
 	margin-bottom: 0;
 }
 
+.swu-section-08{
+	position: relative;
+	padding-top: 35px;
+}
+.swu-section-08-img{
+	position: absolute;
+	right: 0;
+	top: 0;
+	z-index: 1;
+}
+.swu-section-08-cntlr{
+	position: relative;
+	z-index: 2;
+}
+.swu-section-08-title{
 
-
+}
+span.bg-yellow-image{
+	background-image: url(assets/images/swu-bg-yelloe-bg.png);
+	background-repeat: no-repeat;
+	background-size: contain;
+	background-position: 100%;
+	padding: 0 9px;
+    margin: 0 -9px;
+}
 
 
 

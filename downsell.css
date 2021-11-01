@@ -209,11 +209,9 @@
 /* ==================================*/
 
 .fl-pkg-section{
-  padding-top: 50px;
+  padding-top: 13px;
 }
-.pkg-area-cntlr{
-  padding-top: 50px!important;
-}
+
 .fl-pkg-sec-ftr-des{
     padding-top: 65px;
     text-align: left;
@@ -337,7 +335,7 @@
     font-size: 30px;
     line-height: 36px;
     font-family: 'BarlowCondensed-Bold';
-    padding: 15px 10px 15px;
+    padding: 10px 10px 10px;
     background-repeat: repeat-x!important;
     border-radius: 5px 5px 0 0;
     text-shadow: 0px 1px #00659a;
@@ -349,7 +347,7 @@
     text-shadow: 0px 1px #2092cd;
 }
 .fl-pkg-grd-col-hdr strong {
-    padding: 10px 10px 8px 10px;
+    padding: 5px 10px 5px 10px;
     font-size: 28px;
     line-height: 45px;
     font-family: 'BarlowCondensed-Bold';
@@ -513,4 +511,31 @@
 }
 .pkg-area-con-bg-des a{
 	margin-bottom:36px;
+}
+
+
+/* ==================================== 8 */
+.swd-sec8-cntlr{
+	background-color: initial;
+	border:none;
+	margin-bottom:0;
+}
+.pkg-area-con-bg-none{
+	background-color:initial;
+}
+.swd-sec8-cntlr h4{
+	color:#234f6d;
+}
+.sw-sec8-cntlr {
+    padding-bottom: 80px;
+}.swd-sec9-cntlr{
+    margin-top: -125px;
+}
+
+/* ============================ 10*/
+.sw-sec10-cntlr{
+	padding-bottom:0;
+}
+.sw-sec10-cntlr .pkg-area-con-bg-inner{
+	padding-bottom:0;
 }

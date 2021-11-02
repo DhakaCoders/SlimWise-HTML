@@ -160,7 +160,7 @@
         margin-bottom: 50px;
 }
 
-.top-heading span {
+.top-heading{
     color: #fff;
     font-size: 30px;
     font-family: 'LatoBold';
@@ -169,13 +169,16 @@
     padding: 50px 60px;
     background-repeat: no-repeat;
     background-size: 100% 100%;
-    display: block;
-    justify-content: center;
-    align-items: center;
     line-height:1.53;
+    max-width: 760px;
+    width: 100%;
     margin-left: auto;
     margin-right:auto;
-}
+ }
+ .top-heading span{
+ 	display: inline-block;
+ 	vertical-align: baseline;
+ }
 .swd-sec9 {
     background: url(assets/images/dw-img6.png);
     padding-bottom: 13px;
@@ -603,7 +606,7 @@
 .sw-sec8-cntlr {
     padding-bottom: 80px;
 }
-.swd-sec9-cntlr .top-heading span{
+.swd-sec9-cntlr .top-heading{
     margin-top: -110px;
 }
 
@@ -832,6 +835,12 @@
 	.swd-sec3 .swd-sec3-cntlr {
 	    padding-left: 5px!important;
 	    padding-right: 5px!important;
+	}
+	.pkg-area-con-bg-inner{
+		padding-bottom:90px;
+	}
+	.swd-sec9-cntlr .top-heading span{
+	    margin-top: -87px;
 	}
 }
 

@@ -351,10 +351,12 @@
 	position: relative;
 	padding-top: 35px;
 	background-repeat: no-repeat!important;
-	background-position: bottom -100px right!important;
+	background-position: center right!important;
 }
 .swu-section-08-img{
-	
+	position: absolute;
+	right: 0;
+	bottom: -90px;
 }
 .swu-section-08-cntlr{
 	position: relative;
@@ -693,7 +695,7 @@ span.bg-yellow-image{
 		background-position: center left -100px!important;
 	}
 	.swu-section-08{
-		background-position: bottom -100px right -100!important;
+		background-position: center right -100!important;
 	}
 	.swu-section-08-cntlr{
 		padding-right: 50px;
@@ -703,9 +705,6 @@ span.bg-yellow-image{
 	.swu-section-06,
 	.swu-section-03{
 		background-position: center left -150px!important;
-	}
-	.swu-section-08{
-		background-position: bottom -100px right -150!important;
 	}
 	.swu-section-08-cntlr{
 		padding-right: 100px;
@@ -759,7 +758,6 @@ span.bg-yellow-image{
 		position: static;
 		margin-bottom: 35px;
 	}
-	.swu-section-08,
 	.swu-section-06,
 	.swu-section-04,
 	.swu-section-03{
@@ -777,17 +775,24 @@ span.bg-yellow-image{
 		max-width: 100%;
 		margin-left: initial;
 	}
-
+	.swu-section-09-img,
 	.swu-section-06-img,
 	.swu-section-04-img{
 		position: static;
 		margin-bottom: 35px;
+	}
+	.swu-section-09-img{
+		margin-top: 20px;
+		text-align: center;
 	}
 	.swu-section-08-img,
 	.swu-section-07-img{
 		position: static;
 		margin-bottom: 35px;
 		text-align: right;
+	}
+	.swu-section-09-img{
+
 	}
 	.swu-section-07-cntlr{
 		padding: 27px 15px;

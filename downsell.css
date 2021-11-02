@@ -647,6 +647,9 @@
 		font-size:21px;
 		padding: 16px 22px 16px;
 	}
+	.swd-sec5-cntlr h4 span{
+		font-size:50px;
+	}
 }
 @media(max-width:991px){
 	.free-shipping-logo{
@@ -742,4 +745,157 @@
     	height: 160px;
     	font-size:26px;
 	}
+
+
+	/*=============================3*/
+	.swd-sec3-left,
+	.swd-sec3-right,
+	.swd-sec4-right{
+	    position: initial;
+	    width: 100%;
+	}
+	.lazy.swd-sec3-image {
+	    max-width: 470px;
+	    margin-left: auto;
+	    margin-right: auto;
+	}
+	/* ====================================4*/
+	.swd-sec4-image {
+    	position: initial;
+	}
+	.swd-sec6-image {
+    	background-position: left -11px bottom 30px;
+    	min-height:665px;
+	}
+	.pkg-area-con-bg{
+		padding-bottom:0;
+	}
+	.swd-sec6{
+		padding-top:0;
+	}
+	.swd-sec6-right h5 br {
+	    display: none;
+	}
+	.swd-sec7-image {
+    	background-position: left -135px
+ 		bottom -26px;
+    	min-height: 668px;
+	}
+	.swd-sec5-cntlr h4 span{
+		font-size:45px;
+	}
+}
+
+@media(max-width:767px){
+
+	.top-heading span {
+	    width: 525px;
+	    height: 125px;
+	    font-size: 21px;
+	}
+	.fl-pkg-grd-controller > ul > li {
+	    width: 100%;
+	    margin-bottom:15px;
+	}
+	.lazy.swd-sec3-image {
+	    max-width: 380px;
+	    background-size: cover;
+	    min-height: 460px;
+	}
+	.swd-sec4{
+		padding-top:0;
+	}
+	.swd-sec4-image {
+	    min-height: 425px;
+	    max-width: 420px;
+	    background-size: cover;
+	}
+	.swd-sec7-image{
+		margin-left:auto;
+		background-position: left -94px bottom 0px;
+	}
+	.swd-sec5-cntlr h4 span{
+		font-size:40px;
+	}
+	.swd-sec5-cntlr{
+		margin-bottom:60px;
+	}
+	.fl-button{
+		max-width:240px!important;
+		padding:15px 20px 15px!important;
+		font-size:20px!important;
+	}
+	.pkg-area-con-bg-des{
+		padding-top:25px;
+	}
+	.pkg-area-con-bg-des span {
+	    font-size: 25px;
+	}
+	.pkg-area-con-bg-des a {
+    	margin-bottom: 15px;
+	}
+	.mny-bc-guarentee-inner img {
+    	max-width: 260px;
+	    width: 100%;
+	}
+	.fl-pkg-grd-col-btm-bdr {
+	    max-width: 500px;
+	    margin-left: auto;
+	    margin-right: auto;
+	    width: 100%;
+	}
+	.free-shipping-logo{
+		left:102px;
+	}
+	.swd-sec9-cntlr {
+    	margin-top: -63px;
+	}
+	.pkg-area-con-bg-inner {
+		padding-bottom:75px;
+	}
+
+}
+@media(max-width:575px){
+	.top-heading span {
+	    width: 395px;
+	    height: 95px;
+	    font-size: 16px;
+	}
+	.pkg-area-con-bg-des span{
+	    font-size: 20px;
+	}
+	.swd-sec5-cntlr {
+    	margin-bottom: 25px;
+	}
+	.swd-sec8-cntlr {
+	    background-color: initial;
+	    border: none;
+	    margin-bottom: 20px;
+	    padding-top: 30px;
+	}
+	.lazy.swd-sec3-image {
+	    max-width: 330px;
+	    min-height: 400px;
+	}
+	.swd-sec4-image {
+	    min-height: 380px;
+
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+}
+@media(max-width:479px){
+
 }

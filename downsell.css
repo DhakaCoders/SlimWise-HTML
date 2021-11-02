@@ -606,8 +606,10 @@
 .sw-sec8-cntlr {
     padding-bottom: 80px;
 }
-.swd-sec9-cntlr .top-heading{
-    margin-top: -110px;
+.swd-sec9-cntlr .top-heading {
+    margin-top: -82px;
+    font-size: 25px;
+    padding: 45px 60px;
 }
 
 /* ============================ 10*/
@@ -789,9 +791,7 @@
 	    margin-left: auto;
 	    margin-right: auto;
 	}
-	.top-heading span{
-		padding: 36px 60px;
-	}
+
 
 
 	/*=============================3*/
@@ -845,11 +845,15 @@
 }
 
 @media(max-width:767px){
-
-	.top-heading span {
-	    width: 525px;
-	    height: 125px;
-	    font-size: 21px;
+	.swd-sec9-cntlr .top-heading span {
+		margin-top:0;
+	}
+	.swd-sec9-cntlr .top-heading {
+	    margin-top: -72px;
+	    font-size: 20px;
+	    padding: 38px 60px;
+	    max-width: 580px;
+	    margin-bottom:30px;
 	}
 	.fl-pkg-grd-controller > ul > li {
 	    width: 100%;
@@ -914,10 +918,8 @@
 
 }
 @media(max-width:575px){
-	.top-heading span {
-	    width: 395px;
-	    height: 95px;
-	    font-size: 16px;
+	.swd-sec9-cntlr .top-heading{
+		font-size:16px;
 	}
 	.pkg-area-con-bg-des span{
 	    font-size: 20px;
@@ -974,11 +976,7 @@
 
 }
 @media(max-width:479px){
-	.top-heading span {
-    	width: 290px;
-	    height: 75px;
-	    font-size: 12px;
-	}
+
 	.fl-pkg-grd-col-fea-img {
 		width:230px;
 	}
@@ -1064,7 +1062,7 @@
 	    margin-top: -37px;
 	}
 	.pkg-area-con-bg-inner {
-    	padding-bottom: 40px;
+    	padding-bottom: 60px;
 	}
 	.top-heading{
 		margin-bottom:15px;
@@ -1078,6 +1076,11 @@
 	    text-align: center;
 	    padding-bottom: 10px;
 	    margin-bottom: 20px;
+	}
+	.swd-sec9-cntlr .top-heading{
+		margin-top:-57px;
+		padding:30px 60px;
+		font-size: 12px;
 	}
 }
 @media(max-width:359px){

@@ -1,4 +1,6 @@
-
+.d-none{
+	display: none!important;
+}
 /*header*/
 .header-innr{
 	display: flex;
@@ -102,15 +104,18 @@
 
 .swu-section-01{
 	padding-top: 25px;
+	background: #faf3ec;
+	padding-bottom: 162px;
+}
+.swu-section-01-title{
+	font-family: 'latoblack';
 }
 .swu-section-01-cntlr > strong{
 	font-size: 25px;
 	margin-bottom: 40px;
 	display: inline-block;
 }
-.swu-section-01-title{
-	font-family: 'LatoBold';
-}
+
 .swu-section-01-cntlr span{
 	font-size: 30px;
 	margin-bottom: 40px;
@@ -122,22 +127,23 @@
 
 
 .swu-section-02-cntlr{
+	margin-top: -160px;
 	background: #fff;
-	padding-top: 20px;
+	padding-top: 25px;
 	box-shadow: 0px 0px 12px 0px rgb(0 0 0 / 7%);
 	-webkit-box-shadow: 0px 0px 12px 0px rgb(0 0 0 / 7%);
 	-moz-box-shadow: 0px 0px 12px 0px rgb(0 0 0 / 7%);
 }
 .swu-section-02-title{
 	margin-bottom: 30px;
-	line-height: 1.1;
+	line-height: 1.2;
 }
 .swu-section-02-desc,
 .swu-section-02-img{
 	width: 50%;
 }
 .swu-section-02-img img{
-	margin-top: -80px;
+	margin-top: -98px;
 	margin-right: -10px;
 }
 .swu-section-02-desc p:last-of-type{
@@ -164,9 +170,9 @@
 	margin-bottom: 0;
 	background: #fff;
 	padding: 12px 35px 10px;
-	box-shadow: 0px 2px 14px 0px rgb(0 0 0 / 7%);
-	-webkit-box-shadow: 0px 2px 14px 0px rgb(0 0 0 / 7%);
-	-moz-box-shadow: 0px 2px 14px 0px rgb(0 0 0 / 7%);
+	box-shadow: 0px 8px 19px 6px rgb(0 0 0 / 7%);
+	-webkit-box-shadow: 0px 8px 19px 6px rgb(0 0 0 / 7%);
+	-moz-box-shadow: 0px 8px 19px 6px rgb(0 0 0 / 7%);
 	border-radius: 4px;
 }
 
@@ -217,7 +223,7 @@
 	z-index: 2;
 }
 .swu-section-4-title{
-	line-height: 1.1;
+	line-height: 1.2;
 	margin-bottom: 30px;
 }
 .swu-section-05{
@@ -236,7 +242,7 @@
 	padding-top: 25px;
 	padding-left: 10px;
 	padding-right: 10px;
-	margin-bottom: 60px;
+	margin-bottom: 70px;
 }
 .swu-section-05-hdng-img{
 	position: absolute;
@@ -247,7 +253,7 @@
 }
 .swu-section-5-title{
 	margin-bottom: 0;
-	list-style: 1.1;
+	line-height: 1.3;
 	position: relative;
 	z-index: 4;
 }
@@ -288,7 +294,7 @@
 }
 .swu-section-06{
 	position: relative;
-	padding-top: 35px;
+	padding-top: 10px;
 	padding-bottom: 20px;
 }
 .swu-section-06-img{
@@ -304,8 +310,9 @@
 }
 .swu-section-07-img{
 	position: absolute;
-	right: 0;
-	top: 0;
+	right: 2px;
+	top: 3px;
+	bottom: 3px;
 	z-index: 1;
 }
 .swu-section-07-cntlr{
@@ -313,7 +320,7 @@
 	background: #fff;
 	padding: 27px;
 	background-repeat: no-repeat!important; 
-	background-size: contain!important; 
+	background-size: 100% 100%!important; 
 	background-position: center left!important; 
 	overflow: hidden;
 }
@@ -397,6 +404,9 @@ span.bg-yellow-image{
 .swu-section-11-cntlr{
 	background: #fff;
 	padding: 5px;
+	margin-top: -55px;
+	position: relative;
+	z-index: 5;
 }
 .swu-section-11-hding{
 	position: relative;
@@ -405,7 +415,7 @@ span.bg-yellow-image{
 	padding-left: 10px;
 	padding-right: 10px;
 	padding-bottom: 15px;
-	margin-bottom: 30px;
+	margin-bottom: 40px;
 }
 .swu-sec-11-hding-bg {
     position: absolute;
@@ -420,6 +430,7 @@ span.bg-yellow-image{
     padding-left: 40px;
     padding-right: 40px;
     z-index: 4;
+    line-height: 1.25;
 }
 .swu-section-11-img-dec-cntlr{
 	display: flex;
@@ -435,7 +446,7 @@ span.bg-yellow-image{
 	order: 1;
 }
 .swu-section-11-desc p:last-of-type{
-	margin-bottom: 15px;
+	margin-bottom: 20px;
 }
 .swu-section-11-desc2-module{
 	padding-top: 25px;
@@ -455,7 +466,7 @@ span.bg-yellow-image{
 
 }
 .swu-section-12-cntlr{
-	padding-top: 50px;
+	padding-top: 65px;
 	padding-bottom: 50px;
 }
 .sec15-fl-pkg-grd-cntlr .fl-pkg-grd-controller > ul,
@@ -483,8 +494,9 @@ span.bg-yellow-image{
 }
 .swu-section-13-img{
 	position: absolute;
-	right: 0;
-	top: 0;
+	right: 2px;
+	top: 3px;
+	bottom: 3px;
 	z-index: 1;
 }
 .swu-section-13-cntlr{
@@ -493,7 +505,7 @@ span.bg-yellow-image{
 	padding: 35px;
 	padding-top: 42px;
 	background-repeat: no-repeat!important; 
-	background-size: cover!important; 
+	background-size: 100% 100%!important; 
 	background-position: center left!important; 
 	overflow: hidden;
 	margin-top: -85px;
@@ -529,6 +541,7 @@ span.bg-yellow-image{
 }
 .swu-section-14-title{
 	margin-bottom: 35px;
+	line-height: 1.3;
 }
 .swu-section-15-cntlr{
 	border: 2px solid #26527b;
@@ -541,8 +554,8 @@ span.bg-yellow-image{
 	padding-top: 30px;
 	padding-left: 10px;
 	padding-right: 10px;
-	padding-bottom: 15px;
-	margin-bottom: 60px;
+	padding-bottom: 22px;
+	margin-bottom: 70px;
 }
 .swu-sec-15-hding-bg {
     position: absolute;
@@ -556,6 +569,7 @@ span.bg-yellow-image{
     position: relative;
     padding-left: 40px;
     padding-right: 40px;
+    line-height: 1.3;
     z-index: 4;
 }
 .swu-section-15-sub-title{
@@ -642,3 +656,45 @@ span.bg-yellow-image{
 	margin-bottom: 0;
 }
 /*fotter*/
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+/*responsive*/
+@media(max-width: 1199px){
+
+}
+@media(max-width: 991px){
+	
+}
+@media(max-width: 767px){
+	
+}
+@media(max-width: 639px){
+	
+}
+@media(max-width: 575px){
+
+	.fl-ftr-nav ul{
+		margin: 0 -10px;
+	}
+	.fl-ftr-nav ul li{
+		padding: 0 10px;
+	}
+}
+@media(max-width: 479px){
+	
+}

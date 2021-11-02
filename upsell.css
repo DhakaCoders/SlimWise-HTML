@@ -106,7 +106,8 @@
 
 .swu-section-01{
 	padding-top: 25px;
-	background: #faf3ec;
+	background-image: url('assets/images/dw-img6.png');
+	background-repeat: repeat;
 	padding-bottom: 162px;
 }
 .swu-section-01-title{
@@ -209,6 +210,9 @@
 	background: #f1f6f9;
 	padding-top: 45px;
 	padding-bottom: 77px;
+	background-repeat: no-repeat!important;
+	background-size: cover!important;
+	background-position: center center!important;
 }
 .swu-section-04-img{
 	position: absolute;
@@ -224,6 +228,7 @@
 .swu-section-4-cntlr{
 	position: relative;
 	z-index: 2;
+	padding-right: 50px;
 }
 .swu-section-4-title{
 	line-height: 1.2;
@@ -678,23 +683,26 @@ span.bg-yellow-image{
 
 /*responsive*/
 @media(max-width: 1399px){
-	.swu-section-03-img{
-		left: -100px;
+	.swu-section-03-img img{
+		margin-left: -100px;
 	}
 }
 @media(max-width: 1299px){
-	.swu-section-03-img{
-		left: -150px;
+	.swu-section-03-img img{
+		margin-left: -150px;
 	}
 }
 @media(max-width: 1199px){
-	.swu-section-03-img{
-		left: -200px;
+	.swu-section-03-img img{
+		margin-left: -200px;
 	}
 	.swu-section-desc-03-cntlr{
 		max-width: 650px;
 		width: 100%;
 		margin-left: auto;
+	}
+	.swu-section-4-cntlr{
+		padding-right: 100px;
 	}
 }
 @media(max-width: 991px){

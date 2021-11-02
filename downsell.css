@@ -27,8 +27,10 @@
     margin-bottom:20px;
 }
 .swd-sec2-cntlr h6{
-    font-family: 'LatoBold';
+    /*font-family: 'LatoBold';*/
     margin-bottom: 40px;
+    font-family: 'Lato-Semibold';
+
 }
 .swd-sec2-cntlr h6 span{
 	text-decoration:underline;
@@ -192,6 +194,7 @@
     text-align: center;
     padding-bottom: 38px;
     margin-bottom: 54px;
+    box-shadow: 0 2px 13px -10px #000;
 }
 .mny-bc-guarentee-des {
     text-align: center;
@@ -382,6 +385,8 @@
 .fl-pkg-grd-col-fea-img div{
     display: inline-block;
     vertical-align: baseline;
+    margin-left:-25px;
+    margin-right:-25px;
 }
 .fl-pkg-grd-col-fea-img span{
     position: absolute;
@@ -533,7 +538,7 @@
     font-family: 'LatoRegular';
     font-size: 30px;
 }
-.pkg-area-con-bg-des span:last-child{
+.pkg-area-con-bg-des > span:last-child{
     font-family: 'LatoBold';
 }
 .pkg-area-con-bg-des a{
@@ -649,13 +654,16 @@
 	}
 	
 	.swd-sec6-image {
-	    background-position: left -10px bottom 126px;
+	    background-position: left -50px bottom 126px;
 	}
 	.swd-sec7-image{
 		background-position: right bottom 45px;
 	}
 	.swd-sec6-right{
-		width:55%;
+		width:61%;
+	}
+	.swd-sec7-left{
+		width:67%;
 	}
 
 }
@@ -833,8 +841,8 @@
 	}
 	.swd-sec9 .mny-bc-guarentee,
 	.swd-sec3 .swd-sec3-cntlr {
-	    padding-left: 5px!important;
-	    padding-right: 5px!important;
+	    padding-left: 10px!important;
+	    padding-right: 10px!important;
 	}
 	.pkg-area-con-bg-inner{
 		padding-bottom:90px;

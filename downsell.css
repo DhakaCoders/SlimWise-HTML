@@ -8,7 +8,7 @@
     font-family: 'latoblack';
 }
 .swd-sec1 p{
-	font-size:26px;
+	font-size:25.5px;
     font-family: 'LatoBold';
     color: #252525;
 }
@@ -44,7 +44,9 @@
 	padding-top:30px;
 	margin-top:-141px;
 	position: relative;
-	box-shadow: 0 0 28px -22px #000;
+	box-shadow: 0 0 37px -30px #000;
+	-moz-box-shadow: 0 0 37px -30px #000;
+	-webkit-box-shadow: 0 0 37px -30px #000;
 }
 .swd-sec3-left,
 .swd-sec3-right{
@@ -64,7 +66,7 @@
 .swd-sec4{
 	position:relative;
 	padding-top: 38px;
-	padding-bottom: 30px;
+	padding-bottom:0px;
 }
 .swd-sec4-image{
 	min-height:786px;
@@ -138,7 +140,7 @@
 	z-index:1;
 }
 .swd-sec6-right h5{
-	line-height:1.33;
+	line-height:1.23;
 }
 
 /*================================7*/
@@ -195,9 +197,14 @@
     padding-bottom: 38px;
     margin-bottom: 54px;
     box-shadow: 0 2px 13px -10px #000;
+    -webkit-box-shadow: 0 2px 13px -10px #000;
+    -moz-box-shadow: 0 2px 13px -10px #000;
 }
 .mny-bc-guarentee-des {
     text-align: center;
+}
+.mny-bc-guarentee-des h2 {
+    margin-bottom: 42px;
 }
 .mny-bc-guarentee-inner img{
 	margin-top: -52px;
@@ -281,6 +288,8 @@
     background: #fff;
     padding-bottom: 40px;
     box-shadow: 0 2px 13px -10px #000;
+    -webkit-box-shadow: 0 2px 13px -10px #000;
+    -moz-box-shadow: 0 2px 13px -10px #000;
 }
 .fl-pkg-grd-controller > ul {
     margin: -17px;
@@ -540,6 +549,7 @@
 }
 .pkg-area-con-bg-des > span:last-child{
     font-family: 'LatoBold';
+    color:#26527b;
 }
 .pkg-area-con-bg-des a{
 	margin-bottom:36px;

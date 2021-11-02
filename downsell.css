@@ -784,11 +784,11 @@
 	.swd-sec5-cntlr h4 span{
 		font-size:45px;
 	}
-/*	.swd-sec9 .mny-bc-guarentee-inner,
+	.swd-sec9 .mny-bc-guarentee,
 	.swd-sec3 .swd-sec3-cntlr {
 	    padding-left: 5px!important;
 	    padding-right: 5px!important;
-	}*/
+	}
 }
 
 @media(max-width:767px){

@@ -382,6 +382,8 @@
 .fl-pkg-grd-col-fea-img div{
     display: inline-block;
     vertical-align: baseline;
+    margin-left:-25px;
+    margin-right:-25px;
 }
 .fl-pkg-grd-col-fea-img span{
     position: absolute;

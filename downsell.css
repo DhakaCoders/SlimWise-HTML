@@ -175,6 +175,10 @@
     margin-left: auto;
     margin-right:auto;
  }
+ .top-heading span{
+ 	display: inline-block;
+ 	vertical-align: baseline;
+ }
 .swd-sec9 {
     background: url(assets/images/dw-img6.png);
     padding-bottom: 13px;

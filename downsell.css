@@ -166,12 +166,10 @@
     font-family: 'LatoBold';
     background-image: url(assets/images/dw-img5.png);
     vertical-align: baseline;
-    padding: 20px;
+    padding: 50px 60px;
     background-repeat: no-repeat;
-    width: 720px;
-    height: 170px;
-    background-size: cover;
-    display: flex;
+    background-size: 100% 100%;
+    display: block;
     justify-content: center;
     align-items: center;
     line-height:1.53;
@@ -604,7 +602,8 @@
 }
 .sw-sec8-cntlr {
     padding-bottom: 80px;
-}.swd-sec9-cntlr{
+}
+.swd-sec9-cntlr .top-heading span{
     margin-top: -110px;
 }
 
@@ -788,9 +787,7 @@
 	    margin-right: auto;
 	}
 	.top-heading span{
-		width: 636px;
-    	height: 160px;
-    	font-size:26px;
+		padding: 36px 60px;
 	}
 
 

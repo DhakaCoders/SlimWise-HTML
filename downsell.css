@@ -27,8 +27,10 @@
     margin-bottom:20px;
 }
 .swd-sec2-cntlr h6{
-    font-family: 'LatoBold';
+    /*font-family: 'LatoBold';*/
     margin-bottom: 40px;
+    font-family: 'Lato-Semibold';
+    
 }
 .swd-sec2-cntlr h6 span{
 	text-decoration:underline;

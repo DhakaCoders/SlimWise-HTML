@@ -538,6 +538,9 @@ h1,h2,h3,h4,h5,h6 {
     h6{
       font-size:26px;
     }
+    ol li{
+      padding-left: 35px;
+    }
 
 }
 @media(max-width: 575px){

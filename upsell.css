@@ -484,6 +484,9 @@ span.bg-yellow-image{
 	padding-top: 65px;
 	padding-bottom: 50px;
 }
+.sec15-fl-pkg-grd-cntlr{
+	padding: 0 15px;
+}
 .sec15-fl-pkg-grd-cntlr .fl-pkg-grd-controller > ul,
 .swu-section-12-cntlr .fl-pkg-grd-controller > ul{
 	display: flex;
@@ -497,6 +500,7 @@ span.bg-yellow-image{
 	width: 100%;
 	margin: 0 auto
 }
+.sec15-fl-pkg-grd-cntlr .fl-pkg-grd-controller,
 .swu-section-12-cntlr .fl-pkg-grd-controller{
 	max-width: 540px;
 	width: 100%;
@@ -880,6 +884,14 @@ span.bg-yellow-image{
 	.swu-section-13-cntlr{
 		padding: 27px 15px;
 	}
+	.swu-section-14-img{
+		position: static;
+		text-align: center;
+		margin-bottom: 35px;
+	}
+	.swu-section-14-hedng{
+		padding-right: 0;
+	}
 }
 @media(max-width: 767px){
 	.fl-shipping strong{
@@ -896,6 +908,7 @@ span.bg-yellow-image{
 	.swu-sec5-grid-item-title{
 		font-size: 20px;
 	}
+	.swu-sec-15-hding-bg,
 	.swu-sec-11-hding-bg{
 		bottom: -20px;
 	}
@@ -922,6 +935,7 @@ span.bg-yellow-image{
 	.swu-sec5-grid-item-title{
 		font-size: 19px;
 	}
+	.swu-sec-15-hding-bg,
 	.swu-sec-11-hding-bg{
 		bottom: -17px;
 	}

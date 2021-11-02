@@ -80,6 +80,7 @@
     top: 0;
     width: 34px;
     height: 35px;
+    z-index: 5;
 }
 .fl-shipping strong{
     font-size: 18px;
@@ -90,6 +91,7 @@
     display: inline-block;
     text-transform: uppercase;
     margin-bottom: 0;
+    word-break: break-all;
 }
 
 
@@ -678,16 +680,31 @@ span.bg-yellow-image{
 
 }
 @media(max-width: 991px){
-	
+	.hdr-left{
+		width: 100%;
+		margin-bottom: 20px;
+		text-align: center;
+	}
+	.hdr-rgt{
+		margin-right: auto;
+		width: 100%;
+	}
+	.hdr-btmbar{
+		padding: 13px 0;
+	}
 }
 @media(max-width: 767px){
-	
+	.fl-shipping strong{
+		font-size: 16px;
+	}
 }
 @media(max-width: 639px){
 	
 }
 @media(max-width: 575px){
-
+	.fl-shipping strong{
+		font-size: 15px;
+	}
 	.fl-ftr-nav ul{
 		margin: 0 -10px;
 	}

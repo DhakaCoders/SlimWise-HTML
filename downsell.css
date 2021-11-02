@@ -493,6 +493,9 @@
     display: inline-block;
     vertical-align: baseline;
 }
+.fl-add-to-cart-btn-img a:hover {
+    opacity: .8;
+}
 .fl-pkg-grd-ftr ul li{
     
     padding: 3px 0 30px 0px;

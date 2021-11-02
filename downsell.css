@@ -644,7 +644,10 @@
 		background-position: right bottom 45px;
 	}
 	.swd-sec6-right{
-		width:58%;
+		width:59%;
+	}
+	.swd-sec7-left{
+		width:65%;
 	}
 
 }
@@ -660,7 +663,7 @@
 		background-position: right bottom 45px;
 	}
 	.swd-sec6-right{
-		width:61%;
+		width:59%;
 	}
 	.swd-sec7-left{
 		width:67%;
@@ -681,7 +684,7 @@
 		background-position: right bottom 45px;
 	}
 	.swd-sec6-right {
-	    width: 55%;
+	    width: 58%;
 	}
 }
 

@@ -111,6 +111,7 @@
 }
 .swu-section-01-title{
 	font-family: 'latoblack';
+	word-break: break-all;
 }
 .swu-section-01-cntlr > strong{
 	font-size: 25px;
@@ -676,8 +677,25 @@ span.bg-yellow-image{
 
 
 /*responsive*/
+@media(max-width: 1399px){
+	.swu-section-03-img{
+		left: -100px;
+	}
+}
+@media(max-width: 1299px){
+	.swu-section-03-img{
+		left: -150px;
+	}
+}
 @media(max-width: 1199px){
-
+	.swu-section-03-img{
+		left: -200px;
+	}
+	.swu-section-desc-03-cntlr{
+		max-width: 650px;
+		width: 100%;
+		margin-left: auto;
+	}
 }
 @media(max-width: 991px){
 	.hdr-left{
@@ -699,16 +717,30 @@ span.bg-yellow-image{
 		width: 100%;
 	}
 	.swu-section-02-cntlr .swu-section-02-img-desc-cntlr{
-		padding: 30px 15px 0!important;
+		padding: 10px 15px 0!important;
 	}
 	.swu-section-02-cntlr .swu-section-02-desc2{
 		padding-left: 15px!important;
 		padding-right: 15px!important;
 	}
+	.swu-section-03-img{
+		position: static;
+		margin-bottom: 35px;
+	}
+	.swu-section-03-img img{
+		max-width: 100%;
+	}
+	.swu-section-desc-03-cntlr{
+		max-width: 100%;
+		margin-left: initial;
+	}
 }
 @media(max-width: 767px){
 	.fl-shipping strong{
 		font-size: 16px;
+	}
+	.swu-section-desc-title br{
+		display: none!important;
 	}
 }
 @media(max-width: 639px){

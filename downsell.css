@@ -231,9 +231,9 @@
     text-align: left;
     padding-bottom: 24px;
 }
-.pkg-area-con-bg{
+/*.pkg-area-con-bg{
     padding: 0 0 40px;
-}
+}*/
 .pkg-area-con-bg.pkg-area-con-bg-1{
     padding-top: 0;
 }
@@ -276,7 +276,7 @@
 }
 .pkg-area-con-bg-inner {
     background: #fff;
-    padding-bottom: 55px;
+    padding-bottom: 40px;
     box-shadow: 0 2px 13px -10px #000;
 }
 .fl-pkg-grd-controller > ul {
@@ -594,7 +594,7 @@
 	background-color: initial;
 	border:none;
 	margin-bottom:20px;
-	padding-top: 65px;
+	padding-top: 47px;
 }
 .pkg-area-con-bg-none{
 	background-color:initial;

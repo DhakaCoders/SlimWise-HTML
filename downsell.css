@@ -607,7 +607,11 @@
 .sw-sec10-cntlr .pkg-area-con-bg-inner{
 	padding-bottom:0;
 }
-
+@media(max-width:1699px){
+	.swd-sec4-image{
+		background-position: left -9px bottom -54px;
+	}
+}
 @media(max-width:1499px){
 	.swd-sec6-image{
 		background-position: left -75px bottom 126px;
@@ -620,11 +624,19 @@
 	}
 }
 @media(max-width:1399px){
-	.swd-sec4-right{
-		width:68%;
+	.swd-sec4-image {
+	    background-position: left -45px bottom -54px;
 	}
 	.swd-sec6-right{
 		width:55%;
+	}
+}
+@media(max-width:1299px){
+	.swd-sec4-right{
+		width:70%;
+	}
+	.swd-sec4-image {
+	    background-position: left -45px bottom -20px;
 	}
 }
 

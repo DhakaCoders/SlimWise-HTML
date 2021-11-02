@@ -692,6 +692,19 @@ span.bg-yellow-image{
 	.hdr-btmbar{
 		padding: 13px 0;
 	}
+	.swu-section-02-img img{
+		margin: 0;
+	}
+	.swu-section-02-desc, .swu-section-02-img{
+		width: 100%;
+	}
+	.swu-section-02-cntlr .swu-section-02-img-desc-cntlr{
+		padding: 30px 15px 0!important;
+	}
+	.swu-section-02-cntlr .swu-section-02-desc2{
+		padding-left: 15px!important;
+		padding-right: 15px!important;
+	}
 }
 @media(max-width: 767px){
 	.fl-shipping strong{
@@ -710,6 +723,9 @@ span.bg-yellow-image{
 	}
 	.fl-ftr-nav ul li{
 		padding: 0 10px;
+	}
+	.swu-section-02-title br{
+		display: none!important;
 	}
 }
 @media(max-width: 479px){

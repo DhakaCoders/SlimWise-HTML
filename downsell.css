@@ -194,6 +194,7 @@
     text-align: center;
     padding-bottom: 38px;
     margin-bottom: 54px;
+    box-shadow: 0 2px 13px -10px #000;
 }
 .mny-bc-guarentee-des {
     text-align: center;
@@ -653,13 +654,16 @@
 	}
 	
 	.swd-sec6-image {
-	    background-position: left -10px bottom 126px;
+	    background-position: left -50px bottom 126px;
 	}
 	.swd-sec7-image{
 		background-position: right bottom 45px;
 	}
 	.swd-sec6-right{
 		width:55%;
+	}
+	.swd-sec7-left{
+		width:67%;
 	}
 
 }

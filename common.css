@@ -100,7 +100,14 @@
     font-style: normal;
     font-display: swap;
 }
-
+@font-face {
+    font-family: 'Lato-Semibold';
+    src: url('assets/fonts/Lato-Semibold/Lato-Semibold.woff2') format('woff2'),
+        url('assets/fonts/Lato-Semibold/Lato-Semibold.woff') format('woff');
+    font-weight: 600;
+    font-style: normal;
+    font-display: swap;
+}
 
 
 *,*:focus,.btn,.btn:focus {

@@ -208,6 +208,9 @@ a{
 a:hover{
   color: #ffa800;
 }
+sup{
+  font-size: 14px;
+}
 strong { font-family: 'LatoBold'; }
 .pull-right {
     float: right!important;
@@ -215,7 +218,7 @@ strong { font-family: 'LatoBold'; }
 p span.bg-yellow{
   background: #ffe404;
   font-family: 'LatoBold';
-  line-height: 21px;
+  line-height: 23px;
   padding: 2px 0 5px 2px;
   display: inline-block;
 }
@@ -308,8 +311,7 @@ ol li {
     font-size: 20px;
 }
 ol li::before {
-    content: counter(my-awesome-counter) ".";
-    font-weight: 700;
+    content: "0" counter(my-awesome-counter) ".";
     font-size: 20px;
     line-height: 1;
     text-align: center;

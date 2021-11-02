@@ -824,9 +824,9 @@
 	    display: none;
 	}
 	.swd-sec7-image {
-    	background-position: left -135px
- 		bottom -26px;
-    	min-height: 668px;
+    	background-position: left 5px bottom 9px;
+    	min-height: 740px;
+    	background-size: cover;
 	}
 	.swd-sec5-cntlr h4 span{
 		font-size:45px;
@@ -1051,7 +1051,8 @@
 	    background-position: left -32px bottom 0px;
 	}
 	.swd-sec7-image {
-	    background-position: left -139px bottom 0px;
+	    background-position: left -38px bottom 0px;
+
 	}
 	.swd-sec9-cntlr {
 	    margin-top: -37px;
@@ -1071,5 +1072,10 @@
 	    text-align: center;
 	    padding-bottom: 10px;
 	    margin-bottom: 20px;
+	}
+}
+@media(max-width:359px){
+	.swd-sec7-image {
+	    background-position: left -100px bottom 0px;
 	}
 }

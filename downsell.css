@@ -784,6 +784,11 @@
 	.swd-sec5-cntlr h4 span{
 		font-size:45px;
 	}
+/*	.mny-bc-guarentee-inner,
+	.swd-sec3-cntlr {
+	    padding-left: 5px!important;
+	    padding-right: 5px!important;
+	}*/
 }
 
 @media(max-width:767px){
@@ -865,7 +870,7 @@
 	    font-size: 20px;
 	}
 	.swd-sec5-cntlr {
-    	margin-bottom: 25px;
+    	margin-bottom: 40px;
 	}
 	.swd-sec8-cntlr {
 	    background-color: initial;
@@ -880,8 +885,27 @@
 	.swd-sec4-image {
 	    min-height: 380px;
 
-}
-
+	}
+	.swd-sec6-image {
+    	background-position: left -11px
+		bottom 0px;
+	}
+	.swd-sec7-image{
+		background-position: left -37px bottom 0px;
+	}
+	.swd-sec9-cntlr {
+    	margin-top: -50px;
+	}
+	.free-shipping-logo {
+	    left: 53px;
+	}
+	.swd-sec3-cntlr,
+	.swd-sec4{
+		text-align:center;
+	}
+	.swd-sec6{
+		text-align:center;
+	}
 
 
 
@@ -897,5 +921,112 @@
 
 }
 @media(max-width:479px){
+	.top-heading span {
+    	width: 290px;
+	    height: 75px;
+	    font-size: 12px;
+	}
+	header{
+		overflow: hidden;
+	}
 
+	.fl-pkg-grd-col-fea-img {
+		width:230px;
+	}
+	.fl-pkg-grd-col-hdr {
+		margin-bottom:18px;
+	}
+	.fl-add-to-cart-btn-img {
+		width: 225px;
+	}
+	.fl-creditcards {
+	    width: 200px;
+	}
+	.fl-pkg-grd-ftr ul li span {
+	    font-size: 12px;
+	    padding-left: 20px;
+	}
+	.fl-pkg-grd-ftr ul li em img {
+	    width: 16px;
+	}
+
+	.fl-pkg-grd-ftr ul li em {
+	    top: -1px;
+	}
+	.fl-pkg-save-price strong {
+	    font-size: 16px;
+	}
+	.fl-pkg-price strong {
+	    font-size: 50px;
+	}
+	.fl-pkg-price sup {
+	    font-size: 24px;
+	    right: 39px;
+	    top: 0;
+	}
+	.fl-pkg-price sub {
+	    right: 17px;
+	    font-size: 24px;
+	    bottom: 23px;
+	}
+	.free-shipping-logo {
+	    left: 24px;
+	}
+	.fl-pkg-dis-price strong {
+	    font-size: 20px;
+	}
+	.fl-pkg-dis-price:before {
+	    font-size: 20px;
+	    left: 16px;
+	    top: 18px;
+	}
+	.fl-pkg-dis-price sub {
+	    font-size: 17px;
+	    right: 33px;
+	}
+	.fl-pkg-dis-price sup {
+	    font-size: 14px;
+	    right: 52px;
+	    top: 15px;
+	}
+	.fl-pkg-dis-price strong:after {
+	    left: -10px;
+	    width: 31px;
+	}
+	.fl-pkg-dis-price:after {
+	    width: 3px;
+	    height: 3px;
+	    bottom: 20px;
+	}
+	.fl-pkg-price {
+		margin-bottom:0;
+	}
+	.fl-pkg-grd-col-hdr strong, .fl-pkg-grd-col-hdr span {
+	    font-size: 21px;
+	}
+	.swd-sec6-image {
+	    background-position: left -32px bottom 0px;
+	}
+	.swd-sec7-image {
+	    background-position: left -139px bottom 0px;
+	}
+	.swd-sec9-cntlr {
+	    margin-top: -37px;
+	}
+	.pkg-area-con-bg-inner {
+    	padding-bottom: 40px;
+	}
+	.top-heading{
+		margin-bottom:15px;
+	}
+	.mny-bc-guarentee-inner img {
+	    max-width: 190px;
+	}
+	
+	.mny-bc-guarentee{
+	    background-color: #fff;
+	    text-align: center;
+	    padding-bottom: 10px;
+	    margin-bottom: 20px;
+	}
 }

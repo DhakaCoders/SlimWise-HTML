@@ -359,7 +359,8 @@ h1,h2,h3,h4,h5,h6 {
     -webkit-transition: background 0.5s linear;
   
 }
-.fl-button:hover{
+
+.fl-button-cntlr a .fl-button:hover{
     background: linear-gradient(90deg, #c50303,#ff9f9f,#c70202);
     color: #fff;
 }

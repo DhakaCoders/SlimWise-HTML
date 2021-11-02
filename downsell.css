@@ -196,13 +196,14 @@
 	margin-bottom: 97px;
 }
 .mny-bc-guarentee {
-    background-color: #fff;
     text-align: center;
     padding-bottom: 38px;
     margin-bottom: 54px;
-    box-shadow: 0 2px 13px -10px #000;
-    -webkit-box-shadow: 0 2px 13px -10px #000;
-    -moz-box-shadow: 0 2px 13px -10px #000;
+    background-repeat: no-repeat!important;
+    background-position: center left!important;
+    background-size: 100% 100%!important;
+    padding-left: 44px;
+    padding-right: 44px;
 }
 .mny-bc-guarentee-des {
     text-align: center;
@@ -856,7 +857,7 @@
 	.swd-sec5-cntlr h4 span{
 		font-size:45px;
 	}
-	.swd-sec9 .mny-bc-guarentee,
+
 	.swd-sec3 .swd-sec3-cntlr {
 	    padding-left: 10px!important;
 	    padding-right: 10px!important;
@@ -1099,9 +1100,8 @@
 	}
 	
 	.mny-bc-guarentee{
-	    background-color: #fff;
 	    text-align: center;
-	    padding-bottom: 10px;
+	    padding-bottom: 40px;
 	    margin-bottom: 20px;
 	}
 	.top-heading{

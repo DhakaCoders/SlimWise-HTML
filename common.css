@@ -212,7 +212,9 @@ p span.bg-yellow{
   padding: 2px 0 5px 2px;
   display: inline-block;
 }
-
+.color-black2{
+  color:#262728;
+}
 .pull-left {
     float: left!important;
 }

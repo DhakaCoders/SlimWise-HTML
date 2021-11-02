@@ -10,6 +10,7 @@
 .swd-sec1 p{
 	font-size:26px;
     font-family: 'LatoBold';
+    color: #252525;
 }
 /* =============================== 2*/
 .swd-sec2{
@@ -41,6 +42,7 @@
 	padding-top:30px;
 	margin-top:-141px;
 	position: relative;
+	box-shadow: 0 0 28px -22px #000;
 }
 .swd-sec3-left,
 .swd-sec3-right{

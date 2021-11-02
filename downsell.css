@@ -356,6 +356,7 @@
     background-repeat: repeat-x!important;
     border-radius: 5px 5px 0 0;
     text-shadow: 0px 1px #00659a;
+    background-position: left bottom;
 }
 .order1 .fl-pkg-grd-col-hdr span{
     text-shadow: 0px 1px #b82121;

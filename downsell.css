@@ -865,7 +865,7 @@
 	    font-size: 20px;
 	}
 	.swd-sec5-cntlr {
-    	margin-bottom: 25px;
+    	margin-bottom: 40px;
 	}
 	.swd-sec8-cntlr {
 	    background-color: initial;
@@ -880,7 +880,20 @@
 	.swd-sec4-image {
 	    min-height: 380px;
 
-}
+	}
+	.swd-sec6-image {
+    	background-position: left -11px
+		bottom 0px;
+	}
+	.swd-sec7-image{
+		background-position: left -37px bottom 0px;
+	}
+	.swd-sec9-cntlr {
+    	margin-top: -50px;
+	}
+	.free-shipping-logo {
+	    left: 53px;
+	}
 
 
 

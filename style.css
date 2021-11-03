@@ -1879,6 +1879,9 @@ span.bg-yellow-image{
       top: -93px;
       max-width: 215px;
   }
+  .page-body-cntlr{
+    overflow: hidden;
+  }
 }
 @media(max-width: 991px){
   .hide-sm{
@@ -2305,14 +2308,13 @@ span.bg-yellow-image{
     padding-left: 20px!important;
     padding-right: 20px!important;
   }
-  .page-body-cntlr{
-    overflow: hidden;
-  }
+  
   .lazy.swd-sec4-image img {
       max-height: 500px;
   }
   .swd-sec4-image {
     background-color: #fafafd!important;
+    margin-bottom:30px;
   }
   .swd-sec6-image{
     background-color: #f9f8f6!important;
@@ -2328,6 +2330,9 @@ span.bg-yellow-image{
   }
   .pkg-area-con-bg-none{
     padding-bottom:90px;
+  }
+  .swd-sec4{
+    padding-top:0;
   }
 }
 
@@ -2376,6 +2381,9 @@ span.bg-yellow-image{
     .swu-section-4-title br,
     .swu-section-desc-title br{
       display: none!important;
+    }
+    .swu-section-05-desc {
+      padding-bottom: 10px;
     }
     .swu-section-05-hdng-img{
       bottom: -18px;

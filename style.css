@@ -481,6 +481,7 @@ h1,h2,h3,h4,h5,h6 {
 }
 .hdr-btmbar-cntlr strong{
   text-transform: uppercase;
+  font-size:21px;
 
 }
 /*header*/
@@ -2215,10 +2216,12 @@ span.bg-yellow-image{
       max-width: 470px;
       margin-left: auto;
       margin-right: auto;
+      background: transparent!important;
   }
   /* ====================================4*/
   .swd-sec4-image {
       position: initial;
+      background: transparent!important;
   }
   .swd-sec6-image {
       background-position: left -11px bottom 30px;
@@ -2299,6 +2302,9 @@ span.bg-yellow-image{
     }
     .fl-shipping strong{
       font-size: 16px;
+    }
+    .hdr-btmbar-cntlr strong{
+      font-size:20px;
     }
     .swu-section-07-title br,
     .swu-section-4-title br,
@@ -2418,6 +2424,9 @@ span.bg-yellow-image{
   }
   h6{
     font-size:24px;
+  }
+  .hdr-btmbar-cntlr strong{
+    font-size:19px;
   }
   .fl-shipping strong{
     font-size: 15px;

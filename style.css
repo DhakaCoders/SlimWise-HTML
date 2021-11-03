@@ -2547,11 +2547,7 @@ span.bg-yellow-image{
   .fl-pkg-dis-price strong {
       font-size: 20px;
   }
-  .fl-pkg-dis-price:before {
-      font-size: 20px;
-      left: 16px;
-      top: 18px;
-  }
+  
   .fl-pkg-dis-price sub {
       font-size: 17px;
       right: 33px;
@@ -2608,6 +2604,16 @@ span.bg-yellow-image{
   }
   .fl-pkg-price:after{
     margin-top:-5px;
+  }
+  .fl-pkg-price:before {
+    left: 8px;
+    top: 6px;
+    font-size: 33px;
+  }
+  .fl-pkg-dis-price:before {
+      font-size: 20px;
+      left: 16px;
+      top: 18px;
   }
 }
 @media(max-width:359px){

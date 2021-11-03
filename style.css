@@ -799,6 +799,7 @@ span.bg-yellow-image{
 .swu-section-10-cntlr{
   position: relative;
   z-index: 2;
+  margin-left: -50px;
 }
 
 .swu-section-11{
@@ -1448,6 +1449,9 @@ span.bg-yellow-image{
     line-height: 45px;
     font-family: 'BarlowCondensed-Bold';
     text-shadow: 0px 2px #595653;
+}
+.fl-pkg-grd-col-hdr strong br{
+  display: none;
 }
 .fl-pkg-grd-col-fea-img{
     margin: 0 auto;
@@ -2222,6 +2226,7 @@ span.bg-yellow-image{
   .swd-sec4-image {
       position: initial;
       background: transparent!important;
+      min-height:initial;
   }
   .swd-sec6-image {
       background-position: left -11px bottom 30px;
@@ -2344,8 +2349,8 @@ span.bg-yellow-image{
       padding-top:0;
     }
     .swd-sec4-image {
-        min-height: 425px;
-        max-width: 420px;
+ /*       min-height: 425px;
+        max-width: 420px;*/
         background-size: cover;
     }
     .swd-sec7-image{
@@ -2483,7 +2488,7 @@ span.bg-yellow-image{
       min-height: 400px;
   }
   .swd-sec4-image {
-      min-height: 380px;
+   /*   min-height: 380px;*/
 
   }
   .swd-sec6-image {

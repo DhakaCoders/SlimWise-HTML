@@ -1762,6 +1762,9 @@ span.bg-yellow-image{
   .swd-sec7-left{
     width:67%;
   }
+  .swu-section-10-cntlr{
+    margin-left:-60px;
+  }
 }
 @media(max-width: 1299px){
   .swu-section-06,
@@ -1822,6 +1825,7 @@ span.bg-yellow-image{
     p br{
       display: none;
     }
+
     .swu-section-03{
       background-position: center left -200px!important;
     }
@@ -1863,6 +1867,9 @@ span.bg-yellow-image{
     }
     .swd-sec5-cntlr h4 span{
       font-size:50px;
+    }
+    .swu-section-10-cntlr{
+      margin-left:-50px;
     }
 }
 @media(max-width: 991px){
@@ -2208,6 +2215,9 @@ span.bg-yellow-image{
       width: 267px;
       margin-left: auto;
       margin-right: auto;
+  }
+  .swu-section-10-cntlr{
+    margin-left:0;
   }
   /*=============================3*/
   .swd-sec3-left,

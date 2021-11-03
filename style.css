@@ -2544,19 +2544,6 @@ span.bg-yellow-image{
   .fl-pkg-grd-col-hdr {
     margin-bottom:18px;
   }
-  .fl-add-to-cart-btn-img {
-    width: 225px;
-  }
-  .fl-creditcards {
-      width: 200px;
-  }
-  .fl-pkg-grd-ftr ul li span {
-      font-size: 12px;
-      padding-left: 20px;
-  }
-  .fl-pkg-grd-ftr ul li em img {
-      width: 16px;
-  }
 
   .fl-pkg-grd-ftr ul li em {
       top: -1px;
@@ -2650,6 +2637,13 @@ span.bg-yellow-image{
       font-size: 20px;
       left: 16px;
       top: 18px;
+  }
+}
+@media(max-width:399px){
+  .free-shipping-logo {
+      right: 10px;
+      left: initial;
+      top: -45px;
   }
 }
 @media(max-width:359px){

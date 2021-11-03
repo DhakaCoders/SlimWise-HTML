@@ -2015,6 +2015,7 @@ span.bg-yellow-image{
   .swu-section-03-img{
     position: static;
     margin-bottom: 35px;
+    background-color: #fdfcf7;
   }
   .swu-section-06,
   .swu-section-04,
@@ -2022,11 +2023,13 @@ span.bg-yellow-image{
     background: transparent!important;
   }
   .swu-section-04{
-
+      padding-top:0;
       background-color: #f1f6f9!important;
   }
   .swu-section-03-img img{
     max-width: 100%;
+    display: block;
+    max-height: 500px;
   }
   .swu-section-06-cntlr,
   .swu-section-desc-03-cntlr{
@@ -2039,6 +2042,20 @@ span.bg-yellow-image{
   .swu-section-04-img{
     position: static;
     margin-bottom: 35px;
+  }
+  .swu-section-06-img img {
+      max-width: 550px;
+      width: 100%;
+  }
+  .swu-section-06-img{
+    background-color: #fcfaf9;
+  }
+  .swu-section-08-img img {
+      max-height: 500px;
+  }
+
+  .swu-section-08-img {
+      background-color: #fcfbfb;
   }
   .swu-section-09-img{
     margin-top: 20px;
@@ -2080,8 +2097,12 @@ span.bg-yellow-image{
     padding-top: 20px;
   }
   .swu-section-10-img{
-    text-align: center;
+    text-align: left;
+    background-color: #f4f5f6;
   }
+   .swu-section-10-img img{
+    margin-left:0px;
+   }
   .swu-section-13-title br,
   .swu-section-10-title br{
     display: none!important;
@@ -2234,7 +2255,7 @@ span.bg-yellow-image{
       position: initial;
       width: 100%;
   }
-  .lazy.swd-sec3-image {
+  .swd-sec3-image {
       max-width: 470px;
       margin-left: auto;
       margin-right: auto;
@@ -2286,6 +2307,24 @@ span.bg-yellow-image{
   }
   .page-body-cntlr{
     overflow: hidden;
+  }
+  .lazy.swd-sec4-image img {
+      max-height: 500px;
+  }
+  .swd-sec4-image {
+    background-color: #fafafd!important;
+  }
+  .swd-sec6-image{
+    background-color: #f9f8f6!important;
+  }
+  .swd-sec7-image img{
+    margin-left: auto;
+  }
+  .swd-sec7-image{
+        background-color: #f6f9fd!important;
+  }
+  .swd-sec3-image{
+    min-height:initial;
   }
 }
 
@@ -2359,10 +2398,9 @@ span.bg-yellow-image{
         width: 100%;
         margin-bottom:35px;
     }
-    .lazy.swd-sec3-image {
+    .swd-sec3-image {
         max-width: 380px;
         background-size: cover;
-        min-height: 460px;
     }
     .swd-sec4{
       padding-top:0;
@@ -2504,7 +2542,6 @@ span.bg-yellow-image{
   }
   .lazy.swd-sec3-image {
       max-width: 330px;
-      min-height: 400px;
   }
   .swd-sec4-image {
    /*   min-height: 380px;*/

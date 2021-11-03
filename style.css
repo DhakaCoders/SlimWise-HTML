@@ -380,6 +380,7 @@ h1,h2,h3,h4,h5,h6 {
 .d-none{
   display: none!important;
 }
+
 /*header*/
 .header-innr{
   display: flex;
@@ -1875,8 +1876,8 @@ span.bg-yellow-image{
     }
     .swu-section-14-img {
       right:0px;
-      top: -150px;
-      max-width: 300px;
+      top: -93px;
+      max-width: 215px;
   }
 }
 @media(max-width: 991px){
@@ -2282,6 +2283,9 @@ span.bg-yellow-image{
   .fl-pkg-grd-controller{
     padding-left: 20px!important;
     padding-right: 20px!important;
+  }
+  .page-body-cntlr{
+    overflow: hidden;
   }
 }
 

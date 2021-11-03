@@ -497,6 +497,9 @@ h1,h2,h3,h4,h5,h6 {
   font-family: 'latoblack';
   word-break: break-all;
 }
+.swu-section-01-title br{
+  display: none;
+}
 .swu-section-01-cntlr > strong{
   font-size: 25.6px;
   margin-bottom: 40px;
@@ -1990,6 +1993,9 @@ span.bg-yellow-image{
   .pr-30{
     padding-right: 0px!important;
   }
+  .sm-text-center{
+    text-align: center;
+  }
   .hdr-left{
     width: 100%;
     margin-bottom: 20px;
@@ -2032,7 +2038,6 @@ span.bg-yellow-image{
   .swu-section-03-img img{
     max-width: 100%;
     display: block;
-    max-height: 500px;
   }
   .swu-section-06-cntlr,
   .swu-section-desc-03-cntlr{
@@ -2046,15 +2051,9 @@ span.bg-yellow-image{
     position: static;
     margin-bottom: 35px;
   }
-  .swu-section-06-img img {
-      max-width: 550px;
-      width: 100%;
-  }
+
   .swu-section-06-img{
     background-color: #fcfaf9;
-  }
-  .swu-section-08-img img {
-      max-height: 500px;
   }
 
   .swu-section-08-img {
@@ -2097,7 +2096,7 @@ span.bg-yellow-image{
     padding-left: 0;
   }
   .swu-section-10{
-    padding-top: 20px;
+    padding-top:0px;
   }
   .swu-section-10-img{
     text-align: left;
@@ -2309,9 +2308,6 @@ span.bg-yellow-image{
     padding-right: 20px!important;
   }
   
-  .lazy.swd-sec4-image img {
-      max-height: 500px;
-  }
   .swd-sec4-image {
     background-color: #fafafd!important;
     margin-bottom:30px;
@@ -2331,8 +2327,9 @@ span.bg-yellow-image{
   .pkg-area-con-bg-none{
     padding-bottom:90px;
   }
-  .swd-sec4{
-    padding-top:0;
+  .swd-sec4-image {
+    background-color: #fafafd!important;
+    margin-bottom:30px;
   }
 }
 
@@ -2467,6 +2464,9 @@ span.bg-yellow-image{
     .swd-sec2-cntlr h1 br{
       display: none;
     }
+    .swu-section-01-title br{
+      display: block;
+    }
 
 }
 @media(max-width: 639px){
@@ -2480,6 +2480,9 @@ span.bg-yellow-image{
   }
   .fl-shipping-col-03:before{
     width: 35%;
+  }
+  .swu-section-01-cntlr .swu-section-01-title{
+    font-size:44px;
   }
 }
 @media(max-width: 575px){
@@ -2577,6 +2580,7 @@ span.bg-yellow-image{
   .swd-sec8-cntlr h4 br{
     display: none;
   }
+  
 }
 @media(max-width: 479px){
   .fl-shipping-col:after{

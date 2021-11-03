@@ -2326,6 +2326,9 @@ span.bg-yellow-image{
   .swd-sec3-image{
     min-height:initial;
   }
+  .pkg-area-con-bg-none{
+    padding-bottom:90px;
+  }
 }
 
 

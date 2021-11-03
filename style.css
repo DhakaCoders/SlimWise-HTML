@@ -2453,6 +2453,9 @@ span.bg-yellow-image{
 /*    .pkg-area-con-bg-inner {
       padding-bottom:75px;
     }*/
+    .swd-sec2-cntlr h1 br{
+      display: none;
+    }
 
 }
 @media(max-width: 639px){

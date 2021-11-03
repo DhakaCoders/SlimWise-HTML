@@ -1414,7 +1414,9 @@ span.bg-yellow-image{
 .fl-pkg-grd-col-hdr span,.fl-pkg-grd-col-hdr strong{
     display: block;
 }
-
+.fl-pkg-grd-col-hdr strong{
+  line-height:1!important;
+}
 .fl-pkg-grd-col-hdr{
     text-transform: uppercase;
     text-align: center;
@@ -1444,7 +1446,7 @@ span.bg-yellow-image{
     text-shadow: 0px 1px #2092cd;
 }
 .fl-pkg-grd-col-hdr strong {
-    padding: 0px 10px 5px 10px;
+    padding: 8px 10px 16px 10px;
     font-size: 28px;
     line-height: 45px;
     font-family: 'BarlowCondensed-Bold';
@@ -1871,6 +1873,11 @@ span.bg-yellow-image{
     .swu-section-10-cntlr{
       margin-left:-50px;
     }
+    .swu-section-14-img {
+      right:0px;
+      top: -150px;
+      max-width: 300px;
+  }
 }
 @media(max-width: 991px){
   .hide-sm{
@@ -2117,6 +2124,7 @@ span.bg-yellow-image{
     position: static;
     text-align: center;
     margin-bottom: 35px;
+    margin:0 auto;
   }
   .swu-section-14-hedng{
     padding-right: 0;
@@ -2208,11 +2216,10 @@ span.bg-yellow-image{
     padding-top:5px;
   }
   .fl-creditcards {
-      width: 235px;
       margin: auto;
   }
   .fl-add-to-cart-btn-img {
-      width: 267px;
+
       margin-left: auto;
       margin-right: auto;
   }
@@ -2240,7 +2247,6 @@ span.bg-yellow-image{
   }
   .swd-sec6-image {
       background-position: left -11px bottom 30px;
-      min-height:665px;
   }
   .pkg-area-con-bg{
     padding-bottom:0;
@@ -2253,7 +2259,6 @@ span.bg-yellow-image{
   }
   .swd-sec7-image {
       background-position: left 5px bottom 9px;
-      min-height: 740px;
       background-size: cover;
   }
   .swd-sec5-cntlr h4 span{
@@ -2552,7 +2557,7 @@ span.bg-yellow-image{
   .fl-pkg-grd-ftr ul li em {
       top: -1px;
   }
-  .fl-pkg-save-price strong {
+/*  .fl-pkg-save-price strong {
       font-size: 20px;
   }
   .fl-pkg-price strong {
@@ -2567,11 +2572,11 @@ span.bg-yellow-image{
       right: 21px;
       font-size: 24px;
       bottom: 17px;
-  }
+  }*/
   .free-shipping-logo {
       left: 24px;
   }
-  .fl-pkg-dis-price strong {
+ /* .fl-pkg-dis-price strong {
       font-size: 20px;
   }
   
@@ -2595,7 +2600,7 @@ span.bg-yellow-image{
   }
   .fl-pkg-price {
     margin-bottom:0;
-  }
+  }*/
   .fl-pkg-grd-col-hdr strong, .fl-pkg-grd-col-hdr span {
       font-size: 21px;
   }
@@ -2649,5 +2654,8 @@ span.bg-yellow-image{
   }
   .fl-shipping strong {
       font-size: 12px;
+  }
+  .fl-pkg-grd-col-hdr strong br{
+    display:block;
   }
 }

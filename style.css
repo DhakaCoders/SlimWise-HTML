@@ -1710,6 +1710,10 @@ span.bg-yellow-image{
   padding-bottom:0;
 }
 
+.swu-section-17-cntlr p{
+  font-size: 20px;
+}
+
 /*responsive*/
 @media(max-width:1699px){
   .swd-sec4-image{
@@ -2581,6 +2585,9 @@ span.bg-yellow-image{
   }
   .swd-sec8-cntlr h4 br{
     display: none;
+  }
+  .swu-section-17-cntlr p{
+    font-size: 17px;
   }
   
 }

@@ -1713,6 +1713,9 @@ span.bg-yellow-image{
 .swu-section-17-cntlr p{
   font-size: 20px;
 }
+.swu-section-17-cntlr{
+  margin-bottom: 70px;
+}
 
 /*responsive*/
 @media(max-width:1699px){
